@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliotjouan.portfolio/animation </title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="custom-cursor"></div>
+    <div class="::selection"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="info.html" class="info"><i><strong>info</strong></i></a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><a href="projets.html" class="titre">Animation</h1></a>
+        <p class="subtitle"> 2025 </p>
+    </main>
+
+    <section class="portfolio">
+        <div class="grille-projet">
+
+            <figure>
+                <iframe src="https://player.vimeo.com/video/1125142905" class="tab" style="width: 100%; height: auto;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+                <main class="texte-projet">              
+                    <p> 
+                        <br><i>Réalisée pour 
+                            <a href="https://institutducerveau.org/" class="lien-projet"><b>L'institut du cerveau.</b></a></i>
+                        <br> Par groupe nous devions créer une ou plusieurs vidéos pour constituer un support visuel lors de la représenation de la pièce. Afin de rendre la représenation plus dynamique
+                        <br>
+                        <br><i>Pour ma part j'ai travaillé en solo.</i>
+                    </p>
+                </main>    
+            </figure> 
+        </div>
+    </section>
+
+
+    <!-- Bas de la page : -->
+    <footer>
+        <p>© 2025 - Eliot Jouan</p>
+        <p> Tous droits réservés</p>
+    </footer>
+
+    <!-- Script pour le curseur --> 
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        let cursor = document.querySelector(".custom-cursor");
+
+        document.addEventListener('mousemove', function(e){
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+    });
+    </script>
+
+</body>
+</html>
