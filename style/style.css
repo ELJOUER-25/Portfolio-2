@@ -272,3 +272,13 @@ h2{
     display: flex; /* display: none; --> pour cacher un élément & retirer de la disposition d doc */ 
     
 }
+
+/* ======== IFRAME (EN FOND) ======== */
+.background{
+    position: relative;
+    top: 40%;
+    left: 40%;
+    z-index: -1;
+    filter: blur(0px); /* effet flou img */ 
+    border: none;
+}
