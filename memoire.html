@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliotjouan.portfolio/Mémoire</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="custom-cursor"></div>
+    <div class="::selection"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="info.html" class="info"><i><strong>info</strong></i></a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><a href="projets.html" class="titre">Mémoire</h1></a>
+        <p class="subtitle"> 2026 </p>
+    </main>
+
+    <section class="portfolio">
+        <div class="grille-projet">
+            <figure>
+                <iframe src="https://youtu.be/nkuJSmHpwJY" 
+                class="tab" style="width: 100%; height: auto;" frameborder="0" allow="autoplay; fullscreen" 
+                allowfullscreen></iframe>
+
+                <img src="#" class="tab" style="width: 80% ; height:auto;">
+                
+
+                <main class="texte-projet">               
+                    <p>
+                        Graphisme en Peloton. C'est une édition de mon mémoire portant sur le graphisme en peloton.
+                        <br> Ce mémoire interroge sur ces transformations à travers un
+                        regard de designer graphique :
+                        <br>
+                        <br>
+                        <strong><i>Quelle mesure le design graphique permet-il de rendre lisibles et
+                        interprétables les identités de marque sur le corps et les équipements dans le
+                        cyclisme professionnel, malgré les fortes contraintes de performance, de vitesse et
+                        de visibilité ? </i></strong>
+                    </p>
+                </main>    
+            </figure> 
+        </div>
+    </section>
+
+
+    <!-- Bas de la page : -->
+    <footer>
+        <p>© 2025 - Eliot Jouan</p>
+        <p> Tous droits réservés</p>
+    </footer>
+
+    <!-- Script pour le curseur --> 
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        let cursor = document.querySelector(".custom-cursor");
+
+        document.addEventListener('mousemove', function(e){
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+    });
+    </script>
+
+</body>
+</html>
