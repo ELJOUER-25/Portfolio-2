@@ -17,6 +17,12 @@
             "name": "http://127.0.0.1:3000/Portfolio/animation.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/Portfolio/animation.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/projets.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/projets.html"
         }
     ]
 }
