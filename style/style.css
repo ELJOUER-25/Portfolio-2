@@ -282,3 +282,24 @@ h2{
     filter: blur(0px); /* effet flou img */ 
     border: none;
 }
+
+.galerie {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 16px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.galerie::-webkit-scrollbar {
+    display: none;
+}
+
+.galerie img {
+    height: 80vh;
+    width: auto;
+    object-fit: cover;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}/* qui as vu mon code couleur ?*/ 
