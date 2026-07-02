@@ -321,7 +321,7 @@ h2{
 }
 
 .galerie::-webkit-scrollbar-thumb {
-    background-image: url('../images/svg/vélo.svg');
+    background-image: url('../images/svg/velo.svg');
     background-repeat: repeat-x;
     background-size: 33.33% 100%;
     background-color: transparent;
