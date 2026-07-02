@@ -1,4 +1,4 @@
-body {
+body { /* body comme : body summer, le corps */
     margin: 0;
     padding: 0;
     font-family: 'Helvetica Neue', sans-serif;
@@ -198,9 +198,6 @@ h5 {
     gap: 50px 5px; /*Espace entre les éléments (goutière) */
     cursor: none;
 }
-
-
-
   
 .project {
     width: 280px;
@@ -314,8 +311,25 @@ h2{
 }
 
 .galerie::-webkit-scrollbar {
-    display: none;
+    height: 50px; 
+    /* mettre height parce que la scrollbar est horizontal */
+
+    background-color: rgba(234, 234, 234, 0.292); 
+    cursor: none;
+    border-radius: 100%;
+    
 }
+
+.galerie::-webkit-scrollbar-thumb {
+    background-image: url('../images/svg/vélo.svg');
+    background-repeat: repeat-x;
+    background-size: 33.33% 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    background-position: left;
+
+}
+
 
 .galerie img {
     height: 80vh;
@@ -323,4 +337,6 @@ h2{
     object-fit: cover;
     scroll-snap-align: start;
     flex-shrink: 0;
-}/* qui as vu mon code couleur ?*/ 
+}
+
+/* qui as vu mon code couleur ?*/ 
