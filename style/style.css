@@ -359,9 +359,8 @@ h2{
 }
 
 .galerie2::-webkit-scrollbar-thumb {
-    background-image: url('../images/svg/vinyle.svg');
+    background-image: url('/images/svg/vinyle.svg');
     background-repeat: no-repeat;
-    background-size: 33.33% 100%;
     background-color: transparent;
     border-radius: 4px;
     background-position: left;
