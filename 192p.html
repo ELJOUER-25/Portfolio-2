@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliotjouan.portfolio/192 pages</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="custom-cursor"></div>
+    <div class="::selection"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="info.html" class="info"><i><strong>info</strong></i></a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><a href="projets.html" class="titre">192 pages</h1></a>
+        <p class="subtitle"> 2026 </p>
+    </main>
+
+    <section class="portfolio">
+
+    <figure>
+            <div class="galerie2">
+                <img src="images/192p/img_prez_01.png">
+                <img src="images/192p/img_prez_02.png">
+                <img src="images/192p/img_prez_03.png">
+                <img src="images/192p/img_prez_04.png">
+                <img src="images/192p/img_prez_05.png">
+                <img src="images/192p/img_prez_06.png">
+            </div>   
+            
+            <main class="texte-projet">
+                <p>
+                    Un objet hybride : <br>
+                    192 pages, pressées en seulement 4 exemplaires, à la fois livre et disque, on le lit autant qu'on l'écoute.<br>
+                    <br>
+                    Il relie le projet Made et un projet de cours :<br>
+                    Il fallait répondre à la question : <br>
+                    <br>
+                    <strong>"C'est quoi une mixtape ?"</strong><br>
+                    <br>
+                    Alors j'ai ramené toute la matière déjà écouté dans les vinyles et j'en ai fais une mixtape. <br>
+                    <br>
+                    Ma mixtape : ma voix, des mots, des sons de nature (soundscapes), des enregistrements bruts, des collages, et une composition personnelle.<br>
+                    <br>
+                    Tout ça forme MA mixtape.<br>
+                    <br>
+                    À l'origine, une mixtape, c'est gratuit. <br>
+                    C'est un geste : du partage, sans logique commerciale.<br>
+                    <br>
+                    Mais le mot a été récupéré et industrialisé aujourd'hui, il sert surtout à faire du marketing.<br>
+                    <br>
+                    Ce projet, je l'ai fait jusqu'au bout, jusqu'à presser <br>
+                    4 vinyles chez <a href="https://www.vinyl-pressing.com" class="lien-projet"><strong> Heavy Grooves Records.</strong></a>
+                </p>
+            </main>    
+        </figure> 
+    </section>
+
+
+    <!-- Bas de la page : -->
+    <footer>
+        <p>© 2026 - Eliot Jouan</p>
+        <p> Tous droits réservés</p>
+    </footer>
+
+    <!-- Script pour le curseur --> 
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        let cursor = document.querySelector(".custom-cursor");
+
+        document.addEventListener('mousemove', function(e){
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+    });
+    </script>
+
+</body>
+</html>
