@@ -331,7 +331,7 @@ h2{
 }
 
 
-.galerie img {
+.galerie2 img {
     height: 80vh;
     width: auto;
     object-fit: cover;
@@ -339,4 +339,42 @@ h2{
     flex-shrink: 0;
 }
 
+.galerie2 {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 16px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.galerie2::-webkit-scrollbar {
+    height: 50px; 
+    /* mettre height parce que la scrollbar est horizontal */
+
+    background-color: rgba(234, 234, 234, 0.292); 
+    cursor: none;
+    border-radius: 100%;
+    
+}
+
+.galerie2::-webkit-scrollbar-thumb {
+    background-image: url('../images/svg/vinyle.svg');
+    background-repeat: no-repeat;
+    background-size: 33.33% 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    background-position: left;
+
+}
+
+
+.galerie2 img {
+    height: 80vh;
+    width: auto;
+    object-fit: cover;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
 /* qui as vu mon code couleur ?*/ 
+/* Nice try # */
