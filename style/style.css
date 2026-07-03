@@ -313,11 +313,9 @@ h2{
 .galerie::-webkit-scrollbar {
     height: 50px; 
     /* mettre height parce que la scrollbar est horizontal */
-
     background-color: rgba(234, 234, 234, 0.292); 
     cursor: none;
     border-radius: 100%;
-    
 }
 
 .galerie::-webkit-scrollbar-thumb {
@@ -327,7 +325,6 @@ h2{
     background-color: transparent;
     border-radius: 4px;
     background-position: left;
-
 }
 
 
@@ -365,7 +362,6 @@ h2{
     background-color: transparent;
     border-radius: 4px;
     background-position: left;
-
 }
 
 
